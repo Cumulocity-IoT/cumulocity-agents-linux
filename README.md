@@ -1,3 +1,8 @@
+_This repository is **deprecated** and is no longer maintained._
+
+_Future development and support have been moved to [thin-edge.io](https://github.com/thin-edge/thin-edge.io)._
+_Please refer to the thin-edge.io repository for the latest updates and contributions._
+
 # Cumulocity Linux Agent #
 
 Cumulocity Linux agent is a generic agent for connecting Linux-powered devices to Cumulocity's IoT platform. It runs on all major Linux distributions (Ubuntu, Debian, Raspberry Pi OS, CentOS, etc.).
@@ -25,11 +30,11 @@ Cumulocity Linux agent is a generic agent for connecting Linux-powered devices t
 
     - LuaSocket (optional, only for the use of CANopen)
 
-* Build the [Cumulocity C++ library](https://bitbucket.org/m2m/cumulocity-sdk-c) with the default *Makefile* and *common.mk* as *init.mk*.
+* Build the [Cumulocity C++ library](https://github.com/Cumulocity-IoT/cumulocity-sdk-c) with the default *Makefile* and *common.mk* as *init.mk*.
 * Download the agent source code:
 
 ```bash
-git clone git@bitbucket.org:m2m/cumulocity-agents-linux.git
+git clone https://github.com/Cumulocity-IoT/cumulocity-agents-linux.git
 
 ```
 
